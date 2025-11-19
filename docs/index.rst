@@ -2,7 +2,7 @@
 
 calculator documentation
 ========================
-.. automodule:: calculator.calculator
+.. automodule:: calculator.Calculator
    :members:
 
 .. toctree::
