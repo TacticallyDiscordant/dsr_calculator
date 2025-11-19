@@ -2,9 +2,14 @@
 
 calculator documentation
 ========================
-.. automodule:: calculator.Calculator
+.. automodule:: calculator
    :members:
 
+.. autoclass:: calculator.Calculator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
