@@ -17,7 +17,7 @@ author = 'TD'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'Sphinx.ext.autodoc',
+    'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
