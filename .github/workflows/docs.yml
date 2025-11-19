@@ -49,7 +49,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-     - name: Sphinx Build
+      - name: Sphinx Build
         # Builds the HTML output into the standard _site directory for Pages deployment
         run: sphinx-build -b html docs _site
 
