@@ -17,15 +17,18 @@ author = 'TD'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon', # Supports numpy and google style docstrings
+    'Sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.coverage',
+    'sphinx.ext.napoleon',  # Supports numpy and google style docstrings
     'sphinx_rtd_theme',    # Required for the Read the Docs theme
-    'sphinx_autodoc_typehints' # Uses Python type hints in the docs
+    'sphinx_autodoc_typehints'  # Uses Python type hints in the docs
 ]
+
 templates_path = ['_templates']
 exclude_patterns = []
-
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

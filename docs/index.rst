@@ -1,3 +1,5 @@
+.. docs/index.rst
+
 calculator documentation
 ========================
 .. automodule:: calculator.calculator
